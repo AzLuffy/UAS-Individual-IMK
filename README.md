@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# FST Digital Library 📚
 
-# Run and deploy your AI Studio app
+Proyek website Perpustakaan Digital Fakultas Sains dan Teknologi (FST) UIN Syarif Hidayatullah Jakarta. Proyek ini dibangun sebagai tugas Ujian Akhir Semester (UAS).
 
-This contains everything you need to run your app locally.
+**Mata Kuliah:** Interaksi Manusia Komputer (IMK)  
+**Dosen Pengampu:** Pak Hendra Bayu  
 
-View your app in AI Studio: https://ai.studio/apps/8f2406f2-7063-4797-8c8e-10665e4bdd89
+## 🚀 Deskripsi Proyek
+FST Digital Library adalah prototipe antarmuka website perpustakaan digital yang dirancang untuk memudahkan mahasiswa dan dosen FST dalam mencari, meminjam, dan mengelola koleksi buku secara daring. Desain UI/UX berfokus pada kemudahan navigasi, kebersihan tata letak, dan responsivitas.
 
-## Run Locally
+## ✨ Fitur Utama
+- **Autentikasi Pengguna:** Halaman Login dan Registrasi yang bersih.
+- **Dashboard Mahasiswa:** Ringkasan aktivitas membaca, buku yang sedang dipinjam, dan denda (jika ada).
+- **Katalog Buku:** Penjelajahan koleksi perpustakaan dengan fitur filter kategori.
+- **Riwayat Peminjaman:** Pelacakan status peminjaman aktif maupun buku yang sudah dikembalikan.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
+- **Framework:** React.js / Vite
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React / Heroicons
 
+## 💻 Cara Menjalankan Proyek Secara Lokal
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone repositori ini:
+   ```bash
+   git clone [https://github.com/AzLuffy/UAS-Individual-IMK.git](https://github.com/AzLuffy/UAS-Individual-IMK.git)
